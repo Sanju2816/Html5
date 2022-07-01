@@ -1,0 +1,97 @@
+#main{
+    background:url(ocean11.png);
+    height: 100%;
+  }
+  #logo{
+    color:white;
+    font-size: 150%;
+    margin-top: 50px;
+    height: 100px;
+    padding-left: 55px;
+    line-height: 60px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 1px darkcyan 
+    
+  
+  }
+  #logo img{
+    float: left;
+    width: 70px;
+    margin-top: 10px;
+    height: 45px;
+    padding-left: 30%;
+   border-radius: 50px;
+   border-left: 50px;
+   border-bottom-left-radius: 50px;
+    
+  }
+  #hello{
+    margin-top: -30px;
+    margin-right: 15px;
+    margin-left: 32px;
+    height: 776px;
+    background-color: rgb(3, 85, 98);
+    border-radius: 10px;
+   border-top: darkcyan 5px;
+   border-left: rgb(14, 16, 16) 5px;
+   border-right: darkcyan 5px;
+   display:inline-block;
+   border:3px solid rgb(3, 85, 98) ;
+   width:94%;
+   
+  }
+  button{
+    border-radius: 5px;
+    background-color: orange;
+    color: aliceblue;
+    font-family: 'Trebuchet MS';
+   
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 4px;
+    margin-top: 44px;
+    margin-right: 7px;
+    width: 221px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 5px;
+  }
+  #hello button:hover{
+    background-color: white;
+    color: darkcyan;
+  }
+  
+  #sub{
+    background-color: azure;
+    border-radius: 9px;
+    margin-top: 9px;
+    height: fit-content;
+    padding-left: 105px;
+    
+    
+  }
+  #sub img{
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 7px ;
+    border-color: solid darkcyan;
+    
+  }
+  #table
+    {
+        color: darkcyan;
+    }
+    li{
+        color:goldenrod;
+        padding-left: 45px;
+    }
+    li a{
+        color: goldenrod;
+    }
+    #foot{
+        clear:both;  
+        text-align:center;
+        padding:10px;   
+        color: darkcyan;      
+    }

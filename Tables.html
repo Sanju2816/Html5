@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Inline Styles</title>
+</head>
+<body style="background-color:bisque">
+    <h1 style=text-align:center;color:blue;font-family:Arial">Student Information</h1>
+    <hr>
+    <table border="1">
+        <tr  bgcolor="aqua">
+            <th>Roll No</th>
+            <th >Student Name</th>
+            <th >Course</th>
+            <th >University</th>
+        </tr>
+        <tr>
+            <td align="center">101</td>
+            <td>Sanjana</td>
+            <td>Java</td>
+            <td>GRIET</td>
+        </tr>
+        <tr>
+            <td align="center">102</td>
+            <td>Akanksha</td>
+            <td>Python</td>
+            <td>CMR</td>
+        </tr>
+        <tr>
+            <td align="center">103</td>
+            <td>Bjarne Stroustrup</td>
+            <td>MCA</td>
+            <td>AMITY University</td>
+        </tr>
+        <tr>
+            <td align="center">104</td>
+            <td>Dennis Ritchie</td>
+            <td>BTech</td>
+            <td>VTU</td>
+        </tr>
+        <tr>
+            <td align="center">105</td>
+            <td>Gavin KIng</td>
+            <td>BTech</td>
+            <td>Bangalore University</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    <hr color="red" size="10">
+
+    <h1 style="text-align:center;color:blue;font-family: Arial;letter-spacing: 10px;">Employee Information</h1>
+    <hr>
+    <!-- 
+       Cell padding is the space between the cell edges and the cell content.
+      Cell spacing is the space between each cell.
+    -->
+    <table border="2" cellpadding="10" cellspacing="10">
+         <tr bgcolor="yellow">
+           
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th colspan="2">Technologies</th>
+        </tr>
+        <tr>
+            <td align="center">111</td>
+            <td>Gavin KIng</td>
+            <td colspan="2">Spring Framework</td>
+        </tr>
+        <tr>
+            <td align="center">112</td>
+            <td>Mary</td>
+            <td colspan="2">Hibernet</td>
+        </tr>
+        <tr>
+            <td align="center">113</td>
+            <td>Gavin KIng</td>
+            <td colspan="2">.Net</td>
+
+        </tr>
+        <tr>
+            <td align="center">114</td>
+            <td>Arun</td>
+            <td>REact</td>
+            <td>.Net</td>
+        </tr>
+        <tr>
+            <td align="center">113</td>
+            <td>Naveen</td>
+            <td colspan="2">.Net</td>
+
+        </tr>
+        <tr>
+            <td align="center">114</td>
+            <td>Ravi</td>
+            <td>REact</td>
+            <td>JDBC</td>
+        </tr>
+        <tr>
+            <td align="center" rowspan="2">116</td>
+            <td rowspan="2" align="center">Mike</td>
+            <td colspan="2" align="center">Html</td>
+
+        </tr>
+        <tr>
+            <td align="center" colspan="2">Jenkins</td>
+        </tr>
+       <!--rowspan-merging of rows
+        colspan-merging of cols-->
+
+    </table>
+</body>
+</html>
